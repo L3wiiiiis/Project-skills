@@ -47,7 +47,7 @@ The learner can switch at any time ("just give me the summary", "slow down", "ha
 
 **Lecture mode.** For learners who want to read or listen first and practise later.
 1. Use the **one-message setup** (step 1a). Include the visuals choice in it: animated diagrams in the chat, short narrated videos for the key ideas, or none. Only offer the options this environment can actually make (see Tools).
-2. Source the material (step 2), then start: put the short plan (step 3) at the top of the first section.
+2. Source the material (step 2). Under 30 minutes: put the short plan (step 3) at the top of the first section and start. **30+ minutes or several sessions:** show the topic menu (step 3) and wait for their pick before teaching.
 3. Deliver **one section per message**, about 300–600 words, structured: a heading → the key idea in plain English → explanation with a concrete example → proper terms → a diagram where there is structure → a short **Key points** list → sources for that section.
 4. End every section with one check question and the choice: "Answer the question, ask me anything, or say *next* for the next section." Don't move on until they reply.
 5. After the last section, offer a switch to Practice mode, then consolidate (step 8) as usual.
@@ -78,25 +78,24 @@ Many learners are impatient. Get everything you need in **one** setup message, d
 
 **No setup at all** if the request already gives the focus and level ("explain how vaccines work, beginner, 5 minutes"), or the learner says "just start" / "go" / "skip the questions". Use the defaults below and start teaching.
 
-**Otherwise, send one setup message**, for a general topic ("teach me the brain", "lecture me on economics"):
+**Otherwise, send one short setup message**, for a general topic ("teach me the brain", "lecture me on economics"). Keep it to **3 lines** where possible, because long setups feel like a form and impatient learners leave:
 
 ```
-Quick setup — answer any of these, or just say *go* and I'll use the defaults in brackets:
+Quick setup — answer any, or say *go* for the defaults in brackets:
 1. Focus: (a) <sub-topic> (b) <sub-topic> (c) <sub-topic> (d) something else   [a]
 2. Level: beginner / some background / advanced   [beginner]
-3. Time: 5 min / 15 min / 30+ min   [15 min]
-4. Visuals: animated diagrams / short narrated video / none   [<best available>]   (Lecture mode; Learn mode only if available)
-5. It's for: curiosity / a class / an exam   [curiosity]
-Got course slides or notes? Attach them any time.
+3. Time: 5 / 15 / 30+ min   [15]
 ```
 
 Rules for the setup message:
-- Pick the 3 focus options yourself: the most common, distinct ways into the topic. They turn an impossibly broad topic into one teachable idea.
-- Only include lines that matter for this request. Add a line for context that changes the right answer: country or jurisdiction (law, tax, medicine, education), style guide (writing), language or version (coding), exam board (school subjects). Never assume a default country: if it matters and they skip it, teach the general principle and point out where it varies by country.
-- Whatever they answer, **fill every gap with the default and start**. Don't ask about the parts they skipped. If an answer is unclear, pick the closest option and say which you picked in the plan ("I've gone with (a), say *change* to switch").
+- Pick the 3 focus options yourself: the most common, distinct ways into the topic. They turn an impossibly broad topic into one teachable idea. For 30+ minute sessions the learner can also pick "all of it" or several, and choose topics in the topic menu (step 3).
+- Add a 4th line **only when it matters**: visuals (Lecture mode only: animated diagrams / short narrated video / none, default the best available); purpose (curiosity / class / exam) when it would change the depth; or context that changes the right answer: country or jurisdiction (law, tax, medicine, education), style guide (writing), language or version (coding), exam board (school subjects). Never more than 5 lines in total.
+- Never assume a default country: if it matters and they skip it, teach the general principle and point out where it varies by country.
+- Mention once, at the end, that they can attach course slides or notes any time.
+- Whatever they answer, **fill every gap with the default and carry on**. Don't ask about the parts they skipped. If an answer is unclear, pick the closest option and say which you picked ("I've gone with (a), say *change* to switch").
 - **Calibrate level from their answers to the first check questions**, not from a separate probe. If they find it too easy or hard, adjust and say so.
 
-**Deep start (the only exception):** for long sessions (30+ minutes) where the learner is clearly settled in, or when they mention a failed attempt, you may ask *one* follow-up: "What have you already tried, and where did it go wrong?" A failed attempt is gold: make its failure point the central question. Skip this if they seem impatient.
+**Failed attempts:** if the learner mentions something they tried that didn't work, make its failure point the central question of the session. Don't ask a separate question to find one.
 
 **Course materials:** if they attach syllabus, slides, readings or chapters, they define scope, terms and citation style, and are the highest-priority source.
 
@@ -128,19 +127,32 @@ Cite as you go: a short source name with a link after the fact it supports, e.g.
 
 Turn sources into questions, not pasted summaries. Read the source, then ask the learner to predict or reason before revealing what it says.
 
-## 3) Map the path (show it, don't wait)
+## 3) Map the path
+
+**Under 30 minutes: show it, don't wait.** Put a short plan at the top of the first teaching message and start teaching in the same message:
 
 ```
-Here's the plan, based on what you said ("<quote their words>"):
-1. <milestone>: you'll be able to <do X> (~time)
-2. ... (3–7 milestones, foundations → application)
-Not covering today: <the bigger topic left out>
-By the end you'll have: <artifact>
-Main sources: <2–4 sources you'll teach from>
-Say *change* any time to adjust.
+Plan, based on what you said ("<quote their words>"): <1–3 milestones, one line each>
+Not covering today: <what's left out> · Sources: <2–3 main sources> · Say *change* any time.
 ```
 
-Quote the learner at least once and always state what is out of scope. Put the plan at the top of the first teaching message and start teaching in the same message; don't wait for approval. If the learner says *change*, adjust and carry on. If they have under 30 minutes, cut it to one concept, one application and a small artifact, and use the short-session mastery rule (step 5). Under 10 minutes: no setup message unless the topic is general, a plan of one line, and the first teaching in the same message.
+Under 10 minutes: a one-line plan. Use the short-session mastery rule (step 5), and cut it to one concept, one application and a small artifact.
+
+**30+ minutes or several sessions: show the topic menu and wait.** A wrong plan here costs the learner an hour, so let them choose before teaching:
+
+```
+Here's what you'll learn, based on what you said ("<quote their words>"):
+1. <topic>: you'll be able to <do X> (~time)
+2. ... (4–8 topics, foundations → application)
+Main sources: <2–4 sources>
+Reply *go* for all of them in this order, or pick: the numbers you want, any to skip, a different order, or any other topic you'd like added.
+```
+
+- The learner chooses. Whatever they pick, including topics not on the list, becomes the plan. If they add a topic that needs an earlier one to make sense, say so in one line and offer to include it, but follow their choice.
+- This is a choice, not a new setup question: a one-word reply (*go*, or "2 and 5") is enough. Don't ask anything else before teaching.
+- Then start the first topic straight away. They can still say *change*, *skip* or *add* at any point.
+
+Always quote the learner at least once and state what is out of scope.
 
 Choose the session shape from what they said:
 

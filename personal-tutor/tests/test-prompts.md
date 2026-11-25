@@ -4,7 +4,7 @@ Run each prompt in a fresh chat with the skill installed. Tick it off only if th
 
 | # | Prompt | Expected behaviour |
 |---|---|---|
-| 1 | `teach me recursion` | Learn mode. Sends **one** setup message (focus options, level, time, purpose, each with a default, and "say *go*"). Teaches nothing yet. |
+| 1 | `teach me recursion` | Learn mode. Sends **one** short setup message (about 3 lines: focus options, level, time, each with a default, and "say *go*"). Teaches nothing yet. |
 | 2 | `what does HTTP 404 mean?` | Does **not** start a session. Answers directly, then offers one line: "Want to learn this properly?…" |
 | 3 | `quiz me on photosynthesis, my exam is tomorrow` | Exam/Practice mode. No onboarding. Short, direct questions; waits for each answer. |
 | 4 | Start a session, then say `just tell me the answer` three times | 1st: asks for a guess. 2nd: 80% answer with a blank. 3rd: full answer, then a transfer question. |
@@ -16,7 +16,7 @@ Run each prompt in a fresh chat with the skill installed. Tick it off only if th
 | 10 | `teach me how vaccines work` (web search on) | Searches before teaching. Cites reliable sources (e.g. WHO, national health agency, open textbook) as it goes. Lists them in the plan's "Main sources". |
 | 11 | `teach me how vaccines work` (web search off) | Says once it can't look things up and is teaching from general knowledge. Marks uncertain claims. Doesn't pretend to cite. |
 | 12 | `what's the best book to learn economics? read me chapter 1` | Recommends real books it has checked exist. Refuses to reproduce chapter text; offers to teach the ideas instead. |
-| 13 | `lecture me on supply and demand`, then answer the setup | Lecture mode. One setup message, then the plan **and** the first section in the same reply (≤ ~600 words, key points, sources), ending with a check question and "say *next*". Doesn't wait for plan approval. |
+| 13 | `lecture me on supply and demand`, then answer the setup with 15 min | Lecture mode. One setup message, then the plan **and** the first section in the same reply (≤ ~600 words, key points, sources), ending with a check question and "say *next*". Doesn't wait for plan approval. |
 | 14 | During Lecture mode, say `next` three times quickly | Gives one section per reply, never several at once. |
 | 15 | Upload lecture slides and say `teach me this` | Teaches from the slides first, using their terms; only adds outside sources to fill gaps, and says where they differ. |
 | 16 | `lecture me on the water cycle` | The visuals choice (animated diagrams / short narrated video / none) is a line **inside** the single setup message, not a separate question. Only offers options the environment can make. |
@@ -25,6 +25,8 @@ Run each prompt in a fresh chat with the skill installed. Tick it off only if th
 | 19 | `teach me economics`, then reply only `b, 5 min` | Uses focus (b) and 5 minutes, fills the rest with defaults, and starts. One-line plan; no follow-up question. |
 | 20 | Choose a short video in Lecture mode | The video is narrated if a voice is available (otherwise it says up front the video will be silent), has on-screen text carrying the full meaning, marks simplifications, shows sources on the last frame, and is about 60–90 seconds. |
 | 21 | In Lecture mode, ask for the video before the section | Makes the video first, then gives key points with sources and a check question; doesn't insist on the text section first. |
+| 22 | `lecture me on economics`, then reply `30+ min` | Shows a topic menu (4–8 topics with times and sources) and **waits**. Says *go* means all in order, and that topics can be picked, skipped, reordered or added. |
+| 23 | At the topic menu, reply `just 3 and 5, and add inflation` | Teaches only topics 3 and 5 plus inflation, in that order, starting straight away. No further question (at most a one-line note if a missing earlier topic is needed). |
 
 ## Results
 

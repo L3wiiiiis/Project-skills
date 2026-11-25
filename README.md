@@ -10,7 +10,7 @@ Turns an AI assistant into a patient tutor for any subject, teaching from reliab
 
 - **asks one quick setup question** with sensible defaults (say *go* to skip it), then starts teaching straight away
 - **sources the material** from your own course materials first, then open textbooks, official documentation, scholarly encyclopedias and government sites, and cites them
-- **shows a short plan** of 3–7 milestones (say *change* any time to adjust)
+- **shows a short plan** for quick sessions and starts straight away; for 30+ minute sessions it shows a **topic menu** so you choose what to learn (say *change* any time)
 - **teaches one idea per turn**, and asks you to guess before revealing
 - **moves on only when you can actually do it**, not just when it's been explained
 - **tracks progress** with a status line you can paste next time to continue
