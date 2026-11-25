@@ -6,15 +6,25 @@ Projects and skills I've created. Skills are instruction files that teach Claude
 
 ### [personal-tutor](personal-tutor/SKILL.md)
 
-Turns an AI assistant into a patient tutor for any subject. Instead of lecturing, it:
+Turns an AI assistant into a patient tutor for any subject, teaching from reliable sources. Instead of making things up or dumping information, it:
 
 - **finds your starting point** with a few quick questions, one at a time
+- **sources the material** from your own course materials first, then open textbooks, official documentation, scholarly encyclopedias and government sites, and cites them
 - **plans a path** of 3–7 milestones and checks it with you first
 - **teaches one idea per turn**, and asks you to guess before revealing
 - **moves on only when you can actually do it**, not just when it's been explained
 - **tracks progress** with a status line you can paste next time to continue
 
-It has four modes: **Learn**, **Exam** (short and direct), **Practice** (you try first), and **Continue**. It also includes playbooks for law, writing and editing, coding, philosophy, and fact-heavy subjects.
+**Five modes:** **Learn** (step by step), **Lecture** (structured, sourced lessons one section at a time), **Exam** (short and direct), **Practice** (you try first), and **Continue** (pick up where you left off). It also has playbooks for law, health, writing and editing, coding, maths, philosophy, and fact-heavy subjects.
+
+**It will never** invent books, cases, quotes or statistics, or reproduce copyrighted text. When it can't verify something, it says so.
+
+**Try saying**
+- `teach me recursion`
+- `lecture me on supply and demand`
+- `I have a statistics exam on Friday, help me revise hypothesis testing`
+- `quiz me on the French Revolution`
+- `continue Python` (then paste your last 📍 status line if asked)
 
 **Example**
 
@@ -45,9 +55,15 @@ On Windows, copy the `personal-tutor` folder into `%USERPROFILE%\.claude\skills\
 | Feature | Claude app | Claude Code / other agents |
 |---|---|---|
 | Tutoring, modes, mastery checks | ✅ | ✅ |
+| Sourced teaching with citations | ✅ (with web search on) | ✅ if the agent has web search; otherwise general knowledge, clearly flagged |
 | Resume from past chats automatically | ✅ (if chat search or memory is on) | Paste your last 📍 status line |
 | Quiz widget | ✅ | Plain-text quiz |
 | Saved notes / cheat sheet as a document | ✅ | Written in the chat |
+
+## Limits
+
+- It can't read most books. It teaches from open sources and your own materials, and recommends books (checked to exist) for further reading.
+- It's a study aid, not legal, medical or financial advice.
 
 ## Testing
 

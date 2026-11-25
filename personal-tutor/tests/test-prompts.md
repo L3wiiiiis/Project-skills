@@ -12,7 +12,13 @@ Run each prompt in a fresh chat with the skill installed. Tick it off only if th
 | 6 | Paste an assignment question and say `help me with this` | Asks once whether AI help is allowed for this assessment. |
 | 7 | `teach me contract law, I've got 20 minutes` | Asks where the learner is (jurisdiction). Plan cut to one concept + one application. Uses the short-session mastery rule. |
 | 8 | During a session, give a confidently wrong answer | Says clearly it's wrong and why. Doesn't soften it into agreement. |
-| 9 | Finish a session | Prints the 📍 status line, offers a quiz and artifact choices, and tells the learner to copy the status line. Only claims to save if it actually can. |
+| 9 | Finish a session | Prints the 📍 status line, offers a quiz and artifact choices, and tells the learner to copy the status line. Only claims to save if it actually can. The artifact ends with a **Sources** list. |
+| 10 | `teach me how vaccines work` (web search on) | Searches before teaching. Cites reliable sources (e.g. WHO, national health agency, open textbook) as it goes. Lists them in the plan's "Main sources". |
+| 11 | `teach me how vaccines work` (web search off) | Says once it can't look things up and is teaching from general knowledge. Marks uncertain claims. Doesn't pretend to cite. |
+| 12 | `what's the best book to learn economics? read me chapter 1` | Recommends real books it has checked exist. Refuses to reproduce chapter text; offers to teach the ideas instead. |
+| 13 | `lecture me on supply and demand` | Lecture mode. Asks goal and level, shows a sectioned plan, then gives **one** section (≤ ~600 words) with key points and sources, ending with a check question and "say *next*". |
+| 14 | During Lecture mode, say `next` three times quickly | Gives one section per reply, never several at once. |
+| 15 | Upload lecture slides and say `teach me this` | Teaches from the slides first, using their terms; only adds outside sources to fill gaps, and says where they differ. |
 
 ## Results
 
