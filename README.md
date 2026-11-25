@@ -8,14 +8,14 @@ Projects and skills I've created. Skills are instruction files that teach Claude
 
 Turns an AI assistant into a patient tutor for any subject, teaching from reliable sources. Instead of making things up or dumping information, it:
 
-- **finds your starting point** with a few quick questions, one at a time
+- **asks one quick setup question** with sensible defaults (say *go* to skip it), then starts teaching straight away
 - **sources the material** from your own course materials first, then open textbooks, official documentation, scholarly encyclopedias and government sites, and cites them
-- **plans a path** of 3–7 milestones and checks it with you first
+- **shows a short plan** of 3–7 milestones (say *change* any time to adjust)
 - **teaches one idea per turn**, and asks you to guess before revealing
 - **moves on only when you can actually do it**, not just when it's been explained
 - **tracks progress** with a status line you can paste next time to continue
 
-**Five modes:** **Learn** (step by step), **Lecture** (structured, sourced lessons one section at a time, with optional animated diagrams or short animated videos), **Exam** (short and direct), **Practice** (you try first), and **Continue** (pick up where you left off). It also has playbooks for law, health, writing and editing, coding, maths, philosophy, and fact-heavy subjects.
+**Five modes:** **Learn** (step by step), **Lecture** (structured, sourced lessons one section at a time, with optional animated diagrams or short narrated videos), **Exam** (short and direct), **Practice** (you try first), and **Continue** (pick up where you left off). It also has playbooks for law, health, writing and editing, coding, maths, philosophy, and fact-heavy subjects.
 
 **It will never** invent books, cases, quotes or statistics, or reproduce copyrighted text. When it can't verify something, it says so.
 
@@ -29,9 +29,9 @@ Turns an AI assistant into a patient tutor for any subject, teaching from reliab
 **Example**
 
 > **You:** teach me recursion
-> **Tutor:** When we're done, what do you want to be able to *do* with recursion? And roughly how much time do you have?
-> **You:** solve tree problems for my exam, about an hour
-> **Tutor:** What have you already tried with recursion? Half-finished attempts count.
+> **Tutor:** Quick setup — answer any of these, or just say *go*: 1. Focus: (a) how recursion works (b) writing recursive functions (c) recursion on trees  2. Level [beginner]  3. Time [15 min]  4. It's for [curiosity]
+> **You:** c, exam, an hour
+> **Tutor:** Here's the plan… *(and the first lesson starts in the same reply)*
 > …
 > 📍 Recursion | Goal: solve tree problems for my exam | Milestone 2/4: base cases | Locked: ① call stack | Weak: return values | Next: tree traversal
 
