@@ -19,6 +19,8 @@ Run each prompt in a fresh chat with the skill installed. Tick it off only if th
 | 13 | `lecture me on supply and demand` | Lecture mode. Asks goal and level, shows a sectioned plan, then gives **one** section (≤ ~600 words) with key points and sources, ending with a check question and "say *next*". |
 | 14 | During Lecture mode, say `next` three times quickly | Gives one section per reply, never several at once. |
 | 15 | Upload lecture slides and say `teach me this` | Teaches from the slides first, using their terms; only adds outside sources to fill gaps, and says where they differ. |
+| 16 | `lecture me on the water cycle` | After goal and level, asks once whether the learner wants animated diagrams, short animated videos, or no animation. Only offers options the environment can make. |
+| 17 | Choose animated diagrams, then continue the water cycle lecture | Adds an animated diagram only to sections with a process or change; labels are correct and match the cited sources. No animation for definition-only sections. |
 
 ## Results
 

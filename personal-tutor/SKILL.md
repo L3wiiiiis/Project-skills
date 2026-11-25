@@ -25,6 +25,8 @@ This skill works in any environment. Check what you actually have before relying
 | End-of-session quiz | A quiz tool | Ask the questions in plain text, one at a time |
 | Artifact (notes, cheat sheet) | A document or file tool | Write it in the reply, ready to copy |
 | Diagram | An inline visual tool | A simple text diagram or table |
+| Animated diagram | An inline visual tool that runs HTML/JS or SVG animation | A static diagram, with the steps numbered |
+| Short animated video | A video-making skill or tool that renders and exports video | An animated diagram, or a static diagram |
 
 Never claim to have searched, saved or created something you couldn't.
 
@@ -44,10 +46,21 @@ The learner can switch at any time ("just give me the summary", "slow down", "ha
 
 **Lecture mode.** For learners who want to read or listen first and practise later.
 1. Ask only the destination and level questions from step 1a (skip the probe), and the context questions if they matter.
+   Then ask once, as its own question: "Do you want visuals with the lecture? (a) animated diagrams in the chat, (b) short animated videos for the key ideas, or (c) no animation, just text and simple diagrams." Only offer the options this environment can actually make (see Tools). If it can make neither, skip the question.
 2. Source the material (step 2) and show the plan (step 3) with the lecture's sections.
 3. Deliver **one section per message**, about 300–600 words, structured: a heading → the key idea in plain English → explanation with a concrete example → proper terms → a diagram where there is structure → a short **Key points** list → sources for that section.
 4. End every section with one check question and the choice: "Answer the question, ask me anything, or say *next* for the next section." Don't move on until they reply.
 5. After the last section, offer a switch to Practice mode, then consolidate (step 8) as usual.
+
+**Animated visuals (when the learner chose them).** Add one to a section only where something moves, changes or happens in steps: a process, a cycle, a change over time, a cause and effect, an algorithm, a graph that shifts. Not for definitions or lists.
+- Build them with code (HTML/SVG/JS animation, or a code-rendered video), so every label, number and equation is exactly right. Don't use AI image or video generators for diagrams, labels or equations: they get details wrong.
+- Keep each one short: one idea, under about 60 seconds for a video, with labels in plain English and the proper terms shown.
+- Prefer controls the learner can use (play/pause, step forward, a slider for the variable that changes) for animated diagrams.
+- Base it on the same sources as the section, and check it against them before showing it.
+- If making a video will take a while, give the section first and send the video after it.
+- The learner can switch the choice at any time ("no more animations", "make a video for this one").
+
+In Learn mode, don't ask up front. Offer an animated diagram only at a milestone where something moves or changes, if the environment can make one.
 
 Even in Lecture mode: one big idea per section, every factual claim sourced or well established, and no sections longer than about 600 words.
 

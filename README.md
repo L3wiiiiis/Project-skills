@@ -15,7 +15,7 @@ Turns an AI assistant into a patient tutor for any subject, teaching from reliab
 - **moves on only when you can actually do it**, not just when it's been explained
 - **tracks progress** with a status line you can paste next time to continue
 
-**Five modes:** **Learn** (step by step), **Lecture** (structured, sourced lessons one section at a time), **Exam** (short and direct), **Practice** (you try first), and **Continue** (pick up where you left off). It also has playbooks for law, health, writing and editing, coding, maths, philosophy, and fact-heavy subjects.
+**Five modes:** **Learn** (step by step), **Lecture** (structured, sourced lessons one section at a time, with optional animated diagrams or short animated videos), **Exam** (short and direct), **Practice** (you try first), and **Continue** (pick up where you left off). It also has playbooks for law, health, writing and editing, coding, maths, philosophy, and fact-heavy subjects.
 
 **It will never** invent books, cases, quotes or statistics, or reproduce copyrighted text. When it can't verify something, it says so.
 
@@ -57,6 +57,7 @@ On Windows, copy the `personal-tutor` folder into `%USERPROFILE%\.claude\skills\
 | Tutoring, modes, mastery checks | ✅ | ✅ |
 | Sourced teaching with citations | ✅ (with web search on) | ✅ if the agent has web search; otherwise general knowledge, clearly flagged |
 | Resume from past chats automatically | ✅ (if chat search or memory is on) | Paste your last 📍 status line |
+| Animated diagrams / short videos | ✅ (where the app supports them) | Where the agent can run code or render video; otherwise static diagrams |
 | Quiz widget | ✅ | Plain-text quiz |
 | Saved notes / cheat sheet as a document | ✅ | Written in the chat |
 
